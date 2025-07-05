@@ -175,21 +175,28 @@ a:visited {
   position: absolute;
   top: 884.16px;
   overflow: visible;
+  width: 100%;
+  max-width: 900px;
 }
 ._2 {
   height: auto;
   position: absolute;
   top: 1646.43px;
   overflow: visible;
+  width: 100%;
+  max-width: 900px;
 }
 ._3 {
   height: auto;
   position: absolute;
   top: 5155.89px;
   overflow: visible;
+  width: 100%;
+  max-width: 900px;
 }
 ._4 {
-  width: 950.26px;
+  width: 100%;
+  max-width: 900px;
   height: 1350px;
   position: absolute;
   top: 12278.87px;
