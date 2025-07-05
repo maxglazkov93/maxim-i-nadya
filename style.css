@@ -30,17 +30,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
-  position: relative;
 }
 
-/* Убираем горизонтальную прокрутку */
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  width: 100%;
-}
+
 
 /* Стили для ссылок - сохраняем исходный цвет текста */
 a {
@@ -179,35 +171,25 @@ a:visited {
 ._12 {
   height: auto;
   position: absolute;
-  left: -183.64px;
   top: 884.16px;
   overflow: visible;
-  max-width: 100%;
-  width: auto;
 }
 ._2 {
   height: auto;
   position: absolute;
-  left: -241.6px;
   top: 1646.43px;
   overflow: visible;
-  max-width: 100%;
-  width: auto;
 }
 ._3 {
   height: auto;
   position: absolute;
-  left: -287.94px;
   top: 5155.89px;
   overflow: visible;
-  max-width: 100%;
-  width: auto;
 }
 ._4 {
   width: 950.26px;
   height: 1350px;
   position: absolute;
-  left: -25.98px;
   top: 12278.87px;
   object-fit: cover;
 }
@@ -763,7 +745,7 @@ a:visited {
   align-items: center;
   justify-content: center;
 }
-._9-cee-51-d-4-e-3-f-97-e-690-ab-8-ce-078-f-9-dc-5-ca {
+.image-200 {
   width: 232.57px;
   height: 511.84px;
   position: absolute;
@@ -1228,21 +1210,4 @@ a:visited {
   position: absolute;
   top: 13465.08px;
   overflow: visible;
-  max-width: 100%;
-  width: auto;
-}
-
-/* Дополнительные стили для всех SVG элементов */
-.group-7, .rectangle-196, .rectangle-25, .vector {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-
-/* Ограничиваем максимальную ширину больших изображений */
-.dscf-5758-1-2 {
-  max-width: 100%;
-  width: auto;
-  height: auto;
 }
