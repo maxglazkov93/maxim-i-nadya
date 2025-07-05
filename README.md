@@ -21,11 +21,11 @@
 
 ## Контакты
 
-- **Жених**: [@maxglazkov93](https://t.me/maxglazkov93)
-- **Невеста**: [@nadikap](https://t.me/nadikap)
+- **Жених**: @maxglazkov93
+- **Невеста**: @nadikap
 
 ## Ссылки
 
-- [Сайт свадьбы](https://maxglazkov93.github.io/maxim-i-nadya/)
-- [Форма подтверждения присутствия](https://docs.google.com/forms/d/e/1FAIpQLSe9k1Wd6oZ2KMY1jkwA_glY_05ACnUIxRV7wA1docDlVHw3FA/viewform?usp=dialog)
-- [Место проведения на карте](https://yandex.ru/maps/-/CHsM5GLd) 
+- Сайт свадьбы доступен по запросу
+- Форма подтверждения присутствия предоставляется гостям отдельно
+- Место проведения: координаты указаны на сайте 
