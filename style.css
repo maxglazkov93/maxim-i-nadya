@@ -58,7 +58,9 @@ a:visited {
   display: flex;
   background: #ffffff;
   height: 13588px;
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 20px;
   position: relative;
   overflow: hidden;
   justify-content: center;
