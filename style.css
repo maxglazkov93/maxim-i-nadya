@@ -30,6 +30,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
+  position: relative;
 }
 
 /* Убираем горизонтальную прокрутку */
@@ -180,6 +182,8 @@ a:visited {
   left: -183.64px;
   top: 884.16px;
   overflow: visible;
+  max-width: 100%;
+  width: auto;
 }
 ._2 {
   height: auto;
@@ -187,6 +191,8 @@ a:visited {
   left: -241.6px;
   top: 1646.43px;
   overflow: visible;
+  max-width: 100%;
+  width: auto;
 }
 ._3 {
   height: auto;
@@ -194,6 +200,8 @@ a:visited {
   left: -287.94px;
   top: 5155.89px;
   overflow: visible;
+  max-width: 100%;
+  width: auto;
 }
 ._4 {
   width: 950.26px;
@@ -1220,4 +1228,21 @@ a:visited {
   position: absolute;
   top: 13465.08px;
   overflow: visible;
+  max-width: 100%;
+  width: auto;
+}
+
+/* Дополнительные стили для всех SVG элементов */
+.group-7, .rectangle-196, .rectangle-25, .vector {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Ограничиваем максимальную ширину больших изображений */
+.dscf-5758-1-2 {
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
