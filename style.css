@@ -245,7 +245,7 @@ a:visited {
   margin-top: -0.62px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 3.5px 0 0 0;
+  border-width: 0.5px 0 0 0;
   width: 40.88px;
   height: 0px;
   position: absolute;
@@ -258,7 +258,7 @@ a:visited {
   margin-top: -0.62px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 3.5px 0 0 0;
+  border-width: 0.5px 0 0 0;
   width: 40.88px;
   height: 0px;
   position: absolute;
@@ -942,7 +942,6 @@ a:visited {
   font-weight: 600;
   text-decoration: underline;
   position: absolute;
-  left: 161px;
   top: 12126.91px;
   display: flex;
   align-items: center;
@@ -1192,7 +1191,7 @@ a:visited {
   margin-top: -0.5px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 3px 0 0 0;
+  border-width: 0.5px 0 0 0;
   width: 34.37px;
   height: 0px;
   position: absolute;
@@ -1205,7 +1204,7 @@ a:visited {
   margin-top: -0.5px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 3px 0 0 0;
+  border-width: 0.5px 0 0 0;
   width: 34.37px;
   height: 0px;
   position: absolute;
