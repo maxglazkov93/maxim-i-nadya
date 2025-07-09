@@ -189,9 +189,32 @@
     <div class="div34">Дополнительно</div>
     <div class="_4-1">4 окт суббота амбар №1</div>
     <img class="group-16" src="group-160.svg" />
-
+    <div class="clock">
+      до праздника осталось:
+      <div class="clock-oval">
+        <span class="clock-timer" id="clock-timer"></span>
+      </div>
+    </div>
     </div>
   </div>
-  
+  <script>
+    function updateClock() {
+      const deadline = new Date('2025-10-04T13:00:00+03:00');
+      const now = new Date();
+      let diff = deadline - now;
+      if (diff < 0) diff = 0;
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+      document.getElementById('clock-timer').textContent =
+        days + ' д ' +
+        ('0' + hours).slice(-2) + ' ч ' +
+        ('0' + minutes).slice(-2) + ' м ' +
+        ('0' + seconds).slice(-2) + ' с';
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
 </body>
 </html>

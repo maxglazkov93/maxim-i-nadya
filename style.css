@@ -1166,3 +1166,59 @@ a:visited {
   top: 13465.08px;
   overflow: visible;
 }
+.clock, .clock-title, .clock-timer {
+  font-family: "Manrope", sans-serif;
+  font-size: 49.99px;
+  font-weight: 400;
+  color: #5b493c;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.clock {
+  position: absolute;
+  top: 12435px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.clock-title {
+  font-family: "Manrope", sans-serif;
+  font-size: 49.99px;
+  font-weight: 400;
+  color: #5b493c;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.clock-timer {
+  font-family: "Manrope", sans-serif;
+  font-size: 49.99px;
+  font-weight: 400;
+  color: #5b493c;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.clock-oval {
+  background: #ffefdf;
+  border-radius: 999px;
+  border: 0.52px solid #472e21;
+  padding: 0 40px;
+  min-width: 320px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Manrope", sans-serif;
+  font-size: 49.99px;
+  font-weight: 400;
+  color: #5b493c;
+  text-align: center;
+  text-transform: uppercase;
+}
